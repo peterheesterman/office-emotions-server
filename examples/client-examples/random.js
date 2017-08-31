@@ -1,14 +1,7 @@
-
-
 var request = require('request');
 
-let data = {
-  name: 'timetest',
-}
-
-request.post(
-    'http://localhost:3000/play',
-    { json: data },
+request.get(
+    'http://localhost:3000/playRandom',
     function (error, response, body) {
         if (!error && response.statusCode == 200) {
             console.log(body)
@@ -16,4 +9,4 @@ request.post(
     }
 );
 
-console.log('test ' + data.name)
+console.log('test')
