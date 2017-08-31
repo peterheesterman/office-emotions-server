@@ -1,0 +1,41 @@
+{
+  "name": "office-emotions",
+  "version": "0.0.1",
+  "description": "Milight LED bulbs",
+  "author": {
+    "name": "Office Emotions",
+    "url": "https://github.com/peterheesterman/office-emotions-server.git"
+  },
+  "license": "MIT",
+  "main": "src/index",
+  "files": [
+    "examples",
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo no sorry",
+    "start": "node ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peterheesterman/office-emotions-server.git"
+  },
+  "keywords": [
+    "Milight",
+    "LED"
+  ],
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "color": "^2.0.0",
+    "compression": "^1.7.0",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "promise-retryer": "0.0.1",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "lodash.flattendeep": "^4.4.0"
+  }
+}

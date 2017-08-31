@@ -1,0 +1,13 @@
+### Node template
+# Logs
+logs
+*.log
+npm-debug.log*
+
+pids
+*.pid
+*.seed
+
+build/Release
+
+node_modules
