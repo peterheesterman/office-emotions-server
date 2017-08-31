@@ -6,27 +6,27 @@
       "steps": [
         {
           "color":"ffa8ed",
-          "brightness": 100,
+          "brightness": 60,
           "time": 200
         },
         {
           "color":"ffc001",
-          "brightness": 100,
+          "brightness": 60,
           "time": 200
         },
         {
           "color":"ffa8ed",
-          "brightness": 100,
+          "brightness": 60,
           "time": 200
         },
         {
           "color":"ffc001",
-          "brightness": 100,
+          "brightness": 60,
           "time": 200
         },
         {
           "color":"ffe723",
-          "brightness": 100,
+          "brightness": 60,
           "time": 200
         },
         {
@@ -40,7 +40,7 @@
           "time": 200
         }
       ],
-      "offAtEnd": false
+      "offAtEnd": true
     },
 
     {
@@ -48,27 +48,27 @@
       "steps": [
         {
           "color":"01b0f0",
-          "brightness": 100,
+          "brightness": 60,
           "time": 200
         },
         {
           "color":"274dff",
-          "brightness": 100,
+          "brightness": 60,
           "time": 200
         },
         {
           "color":"002060",
-          "brightness": 100,
+          "brightness": 60,
           "time": 200
         },
         {
           "color":"274dff",
-          "brightness": 100,
+          "brightness": 60,
           "time": 200
         },
         {
           "color":"01b0f0",
-          "brightness": 100,
+          "brightness": 60,
           "time": 200
         }
       ],
@@ -80,27 +80,27 @@
       "steps": [
         {
           "color":"ffc001",
-          "brightness": 100,
+          "brightness": 60,
           "time": 200
         },
         {
           "color":"ff0000",
-          "brightness": 100,
+          "brightness": 60,
           "time": 250
         },
         {
           "color":"ffff00",
-          "brightness": 100,
+          "brightness": 60,
           "time": 100
         },
         {
           "color":"ff0000",
-          "brightness": 100,
+          "brightness": 60,
           "time": 250
         },
         {
           "color":"ffc001",
-          "brightness": 100,
+          "brightness": 60,
           "time": 200
         }
       ],
@@ -119,6 +119,7 @@
       ],
       "offAtEnd":true
     },
+
     {
       "name":"timetest",
       "steps":[

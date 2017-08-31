@@ -1,13 +1,17 @@
 
 
 var request = require('request');
+var emo = 'angry';
 
 let data = {
-  name: 'timetest',
+  name: emo,
 }
 
 request.post(
+    //'http://192.168.88.54:3000/play',
+    //'http://192.168.88.54:3000/slack',
     'http://localhost:3000/play',
+    //'http://localhost:3000/slack',
     { json: data },
     function (error, response, body) {
         if (!error && response.statusCode == 200) {
@@ -16,4 +20,5 @@ request.post(
     }
 );
 
-console.log('test ' + data.name)
+
+console.log('testing ' + emo)
