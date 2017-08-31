@@ -9,6 +9,7 @@ app.use(compression())
 app.use(bodyParser.json())
 
 app.use(require('./server/play/playRoute'))
+app.use(require('./server/play/playRandomRoute'))
 app.use(require('./server/add/addRoute'))
 app.use(require('./server/delete/deleteRoute'))
 app.use(require('./server/commands/getCommandsRoute'))
