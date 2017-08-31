@@ -29,8 +29,8 @@ module.exports = (function () {
     light.pause(delay)
   }
 
-  router.post('/play', function (req, res) {
-    let {name} = req.body
+  router.get('/play/:name', function (req, res) {
+    let name = req.params.name;
     log(`Playing ${name}`)
 
     let text = fs.readFileSync(path.resolve('__dirname', `../uploads/db.json`), 'utf8')
