@@ -105,7 +105,31 @@
         }
       ],
       "offAtEnd":true
-    }
+    },
 
+    {
+      "name":"signatureAB",
+      "steps":[
+        {"color":"1f4e9e", "brightness": 70, "time": 200},{"color":"a9d054", "brightness": 30, "time": 100},{"color":"1f4e9e", "brightness": 70, "time": 400},{"color":"000000", "brightness": 0, "time": 600},
+        {"color":"1f4e9e", "brightness": 70, "time": 400},{"color":"a9d054", "brightness": 30, "time": 100},{"color":"1f4e9e", "brightness": 70, "time": 400},{"color":"000000", "brightness": 0, "time": 600},
+        {"color":"1f4e9e", "brightness": 70, "time": 400},{"color":"a9d054", "brightness": 30, "time": 100},{"color":"1f4e9e", "brightness": 70, "time": 400},{"color":"a9d054", "brightness": 30, "time": 100},{"color":"1f4e9e", "brightness": 70, "time": 200},{"color":"000000", "brightness": 0, "time": 600},
+        {"color":"1f4e9e", "brightness": 70, "time": 200},{"color":"a9d054", "brightness": 30, "time": 100},{"color":"1f4e9e", "brightness": 70, "time": 400},{"color":"a9d054", "brightness": 30, "time": 100},{"color":"1f4e9e", "brightness": 70, "time": 200},{"color":"000000", "brightness": 0, "time": 600},
+        {"color":"1f4e9e", "brightness": 70, "time": 200},{"color":"000000", "brightness": 0, "time": 600},
+        {"color":"1f4e9e", "brightness": 70, "time": 200},{"color":"a9d054", "brightness": 30, "time": 100},{"color":"1f4e9e", "brightness": 70, "time": 400},{"color":"000000", "brightness": 0, "time": 600}
+      ],
+      "offAtEnd":true
+    },
+    {
+      "name":"timetest",
+      "steps":[
+        {"color":"ff0000", "brightness": 50, "time": 100},
+        {"color":"00ff00", "brightness": 50, "time": 200},
+        {"color":"0000ff", "brightness": 50, "time": 400},
+        {"color":"ffff00", "brightness": 50, "time": 600},
+        {"color":"ff0000ff", "brightness": 50, "time": 800},
+        {"color":"00ffff", "brightness": 50, "time": 1000}
+      ],
+      "offAtEnd":true
+    }
   ]
 }
