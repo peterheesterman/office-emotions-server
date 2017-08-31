@@ -30,8 +30,11 @@ module.exports = (function () {
   }
 
   router.get('/play/:name', function (req, res) {
-    let name = req.params.name;
-    log(`Playing ${name}`)
+      let name = req.params.name;
+      log(`Playing ${name}`)
+
+      let text = fs.readFileSync(path.resolve('__dirname', '../uploads/db.json'), 'utf8')
+      let db = JSON.parse(text)
 
       let realCommand = db.emotions.find(command => command.name === name);
 
