@@ -3,7 +3,7 @@
 var request = require('request');
 
 
-var emo = 'fail';
+var emo = 'coxbot';
 
 
 

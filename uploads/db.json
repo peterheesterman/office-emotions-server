@@ -243,6 +243,18 @@
 {"color":"ff0000", "brightness": 100, "time": 500}
 ],
 "offAtEnd":true
+},
+
+
+{
+"name":"coxbot",
+"steps":[
+{"color":"ff6699", "brightness": 100, "time": 500},
+{"color":"ff0000", "brightness": 100, "time": 20},
+{"color":"ff6699", "brightness": 100, "time": 500},
+{"color":"ff0000", "brightness": 100, "time": 500}
+],
+"offAtEnd":true
 }
   ]
 }
