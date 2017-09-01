@@ -156,6 +156,7 @@
           "name":"josh",
           "steps":[
             {"color":"fffacd", "brightness": 50, "time": 500},
+<<<<<<< HEAD
             {"color":"3366ff", "brightness": 100, "time": 500},
               {"color":"fffacd", "brightness": 50, "time": 500},
               {"color":"3366ff", "brightness": 100, "time": 500},
@@ -216,4 +217,52 @@
           "offAtEnd":true
           }
           ]
+=======
+            {"color":"3366ff", "brightness": 100, "time": 500}
+      ],
+      "offAtEnd":true
+    },
+     {
+      "name": "staz",
+      "steps": [
+        {
+          "color":"FF69B4",
+          "brightness": 100,
+          "time": 200
+        },
+        {
+          "color":"9BEF05",
+          "brightness": 100,
+          "time": 200
+        },
+        {
+          "color":"FF69B4",
+          "brightness": 100,
+          "time": 200
+        },
+        {
+          "color":"9BEF05",
+          "brightness": 100,
+          "time": 200
+        },
+        {
+          "color":"FF69B4",
+          "brightness": 100,
+          "time": 200
+        },
+        {
+          "color":"9BEF05",
+          "brightness": 100,
+          "time": 200
+        },
+        {
+          "color":"FF69B4",
+          "brightness": 100,
+          "time": 200
+        }
+      ],
+      "offAtEnd": true
+    }
+]
+>>>>>>> 822bb1b772eb2700d290ec58126ae45938e1e8ef
 }
