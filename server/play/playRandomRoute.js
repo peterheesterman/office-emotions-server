@@ -8,6 +8,7 @@ module.exports = (function () {
   let path = require('path')
   let Color = require('color')
   let tinycolor = require('tinycolor2');
+    var bodyParser = require('body-parser')
 
   let light = new Milight({
           ip: "255.255.255.255",
@@ -26,23 +27,23 @@ module.exports = (function () {
       commands.rgbw.rgb(r, g, b),
       commands.rgbw.brightness(brightness)
     );
-    
+
     light.pause(delay)
   }
 
-  router.get('/playRandom', function (req, res) {
+  router.get('/playRandom', bodyParser.json(), function (req, res) {
     log(`Playing Random!`)
 
     for (var i = 0; i < count; i++) {
       let randomColor = tinycolor.random();
       let {r,g,b} = randomColor.toRgb();
-      let brightness = Math.floor(Math.random() * 100);  // between 0 and 100  
+      let brightness = Math.floor(Math.random() * 100);  // between 0 and 100
       let time = Math.floor(Math.random() * (500 - 200)) + 200; // between 100 and 500
       show(r,g,b,brightness,time);
     }
-    
+
     light.sendCommands(commands.rgbw.off(zone))
-    
+
     light.close().then(function () {
       console.log("All command have been executed - closing Milight")
     });

@@ -2,13 +2,13 @@
 module.exports = (function () {
   'use strict'
   var router = require('express').Router()
-
+  var bodyParser = require('body-parser')
   var fs = require('fs')
   var path = require('path')
 
   const log = console.log.bind(console)
 
-  router.post('/delete', function (req, res) {
+  router.post('/delete', bodyParser.json(), function (req, res) {
     let {name} = req.body
 
     var filePath = path.resolve('__dirname', `../uploads/db.json`)
@@ -30,6 +30,3 @@ module.exports = (function () {
 
   return router
 })()
-
-
-

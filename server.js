@@ -2,11 +2,11 @@
 var express = require('express')
 var cors = require('cors')
 var compression = require('compression')
-var bodyParser = require('body-parser')
+//var bodyParser = require('body-parser')
 
 var app = express()
 app.use(compression())
-app.use(bodyParser.json())
+//app.use(bodyParser.json())
 
 app.use(require('./server/play/playRoute'))
 app.use(require('./server/play/playRandomRoute'))

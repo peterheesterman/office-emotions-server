@@ -131,6 +131,25 @@
         {"color":"00ffff", "brightness": 50, "time": 1000}
       ],
       "offAtEnd":true
-    }
-  ]
+    },
+
+    {
+      "name":"strobe",
+      "steps":[
+        {"color":"ff0000", "brightness": 50, "time": 400},
+        {"color":"0000ff", "brightness": 10, "time": 50},
+          {"color":"ff0000", "brightness": 50, "time": 400},
+          {"color":"0000ff", "brightness": 20, "time": 50},
+            {"color":"ff0000", "brightness": 30, "time": 400},
+            {"color":"0000ff", "brightness": 50, "time": 50},
+              {"color":"ff0000", "brightness": 40, "time": 400},
+              {"color":"0000ff", "brightness": 50, "time": 50},
+                {"color":"ff0000", "brightness": 50, "time": 400},
+                {"color":"0000ff", "brightness": 50, "time": 50},
+                  {"color":"ff0000", "brightness": 50, "time": 400},
+                  {"color":"0000ff", "brightness": 50, "time": 50}
+      ],
+      "offAtEnd":true
+}
+]
 }

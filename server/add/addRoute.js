@@ -5,9 +5,10 @@ module.exports = (function () {
   let router = require('express').Router()
   let fs = require('fs')
   let path = require('path')
+  var bodyParser = require('body-parser')
   const log = console.log.bind(console)
 
-  router.post('/add', function (req, res) {
+  router.post('/add',  bodyParser.json(), function (req, res) {
     let {name, steps} = req.body
 
     let filePath = path.resolve('__dirname', `../server/uploads/db.json`)
@@ -34,6 +35,3 @@ module.exports = (function () {
 
   return router
 })()
-
-
-

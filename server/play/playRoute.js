@@ -9,6 +9,8 @@ module.exports = (function () {
   let path = require('path')
   let Color = require('color')
 
+  var bodyParser = require('body-parser')
+
   let light = new Milight({
           ip: "255.255.255.255",
           delayBetweenCommands: 80,
@@ -29,7 +31,7 @@ module.exports = (function () {
     light.pause(delay)
   }
 
-  router.get('/play/:name', function (req, res) {
+  router.get('/play/:name', bodyParser.json(), function (req, res) {
       let name = req.params.name;
       log(`Playing ${name}`)
 
@@ -63,7 +65,7 @@ module.exports = (function () {
       }
     })
 
-router.post('/slack', function (req, res) {
+router.post('/slack', bodyParser.urlencoded(), function (req, res) {
   log(req)
         let {text} = req.body
         log(req.body)
