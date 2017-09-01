@@ -20,6 +20,7 @@ app.use(require('./server/play/playRandomRoute'))
 app.use(require('./server/add/addRoute'))
 app.use(require('./server/delete/deleteRoute'))
 app.use(require('./server/commands/getCommandsRoute'))
+app.use(require('./server/data/getDataRoute'))
 
 
 
