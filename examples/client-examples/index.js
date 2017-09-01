@@ -1,7 +1,9 @@
 
 
 var request = require('request');
+
 var emo = 'sad';
+
 
 let data = {
   text: emo,
@@ -9,7 +11,7 @@ let data = {
 
 request.get(
     'http://localhost:3000/play/'+emo,
-  
+
     function (error, response, body) {
         if (!error && response.statusCode == 200) {
             console.log(body)
