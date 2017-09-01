@@ -42,6 +42,7 @@ module.exports = (function () {
         realCommand.steps.forEach(function(element) {
           if (element.color === '000000') {
             light.sendCommands(commands.rgbw.off(zone))
+            light.pause(element.time)
           } else {
             let c = Color(`#${element.color}`)
             const {brightness, time} = element
