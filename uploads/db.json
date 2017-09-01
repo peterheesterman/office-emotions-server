@@ -231,6 +231,18 @@
       {"color":"00ff00", "brightness": 100, "time": 1000}
     ],
     "offAtEnd":true
-    }
+    },
+
+
+{
+"name":"fail",
+"steps":[
+{"color":"ff0000", "brightness": 100, "time": 500},
+{"color":"666666", "brightness": 100, "time": 20},
+{"color":"ff0000", "brightness": 100, "time": 500},
+{"color":"ff0000", "brightness": 100, "time": 500}
+],
+"offAtEnd":true
+}
   ]
 }
