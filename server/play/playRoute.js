@@ -64,6 +64,7 @@ module.exports = (function () {
     })
 
 router.post('/slack', function (req, res) {
+  log(req)
         let {text} = req.body
         log(req.body)
         log(req.body.text)
