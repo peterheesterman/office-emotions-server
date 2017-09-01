@@ -150,6 +150,19 @@
                   {"color":"0000ff", "brightness": 50, "time": 50}
       ],
       "offAtEnd":true
-}
+    },
+
+    {
+      "name":"josh",
+      "steps":[
+        {"color":"fffacd", "brightness": 50, "time": 500},
+        {"color":"3366ff", "brightness": 100, "time": 500},
+          {"color":"fffacd", "brightness": 50, "time": 500},
+          {"color":"3366ff", "brightness": 100, "time": 500},
+            {"color":"fffacd", "brightness": 50, "time": 500},
+            {"color":"3366ff", "brightness": 100, "time": 500}
+      ],
+      "offAtEnd":true
+    }
 ]
 }
