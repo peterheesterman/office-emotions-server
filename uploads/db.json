@@ -214,6 +214,23 @@
               {"color":"C77CFF", "brightness": 80, "time": 300}
           ],
           "offAtEnd":true
-          }
-          ]
+          },
+
+
+    {
+    "name":"deploy",
+    "steps":[
+      {"color":"ff0000", "brightness": 100, "time": 200},
+      {"color":"ff0000", "brightness": 50, "time": 100},
+      {"color":"ffff00", "brightness": 100, "time": 200},
+      {"color":"ffff00", "brightness": 50, "time": 100},
+      {"color":"00ff00", "brightness": 100, "time": 600},
+      {"color":"00ff00", "brightness": 50, "time": 100},
+      {"color":"00ff00", "brightness": 100, "time": 600},
+      {"color":"00ff00", "brightness": 50, "time": 100},
+      {"color":"00ff00", "brightness": 100, "time": 1000}
+    ],
+    "offAtEnd":true
+    }
+  ]
 }
