@@ -66,7 +66,7 @@ module.exports = (function () {
       }
     })
 
-router.post('/slack', bodyParser.urlencoded(), function (req, res) {
+router.post('/slack', bodyParser.urlencoded({extended: false}), function (req, res) {
   log(req)
         let {text} = req.body
         log(req.body)
